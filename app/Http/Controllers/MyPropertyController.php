@@ -122,7 +122,7 @@ class MyPropertyController extends Controller
          "password"=>request("password")
         ]);
        if (!$user) {
-           throw new Exception("a77a");
+           throw new Exception("not found");
        }
 }
       public function lola()
@@ -264,7 +264,7 @@ return $plzWork;
         public function tryMaps()
     {
        
-     return view("sex");
+     return view("the_map");
     
      }
 }
